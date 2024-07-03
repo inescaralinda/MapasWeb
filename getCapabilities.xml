@@ -209,6 +209,11 @@
 				<Layers>GH:populacao_por_regiao</Layers>
 				<Styles></Styles>
 			</TileSet>
+			<CustomLayer>
+				<Name>GH:aeroportos</Name>
+				<Title>aeroportos</Title>
+				<Operation type="csv">1</Operation>
+			</CustomLayer>
 		</VendorSpecificCapabilities>
 		<UserDefinedSymbolization SupportSLD="1" UserLayer="1" UserStyle="1" RemoteWFS="1"></UserDefinedSymbolization>
 		<Layer>
@@ -217,7 +222,7 @@
 				<Title>estradas</Title>
 				<Abstract>GH:estradas ABSTRACT</Abstract>
 				<KeywordList>
-					<Keyword>group:shp::://github.com/inescaralinda/MapasWeb/releases/download/Map_Download/estradas.zip:notListing::maxZoom:7</Keyword>
+					<Keyword>group:shp::://github.com/inescaralinda/MapasWeb/releases/download/Map_Download/estradas.zip:notListing::maxZoom:4</Keyword>
 				</KeywordList>
 				<SRS>EPSG:4326</SRS>
 				<LatLonBoundingBox minx="-16.658719197158966" miny="10.963754803085479" maxx="-13.637727756182164" maxy="12.688796720645797"></LatLonBoundingBox>
@@ -237,7 +242,7 @@
 				<Title>estradas_principais</Title>
 				<Abstract>GH:estradas_principais ABSTRACT</Abstract>
 				<KeywordList>
-					<Keyword>group:shp::://github.com/inescaralinda/MapasWeb/releases/download/Map_Download/estradas_principais.zip:notListing::maxZoom:7</Keyword>
+					<Keyword>group:shp::://github.com/inescaralinda/MapasWeb/releases/download/Map_Download/estradas_principais.zip:notListing::maxZoom:4</Keyword>
 				</KeywordList>
 				<SRS>EPSG:4326</SRS>
 				<LatLonBoundingBox minx="-16.61013985094354" miny="11.03605082487234" maxx="-13.641913756493347" maxy="12.679290153799913"></LatLonBoundingBox>
@@ -257,7 +262,7 @@
 				<Title>recursos_hidricos</Title>
 				<Abstract>GH:recursos_hidricos ABSTRACT</Abstract>
 				<KeywordList>
-					<Keyword>group:shp::://github.com/inescaralinda/MapasWeb/releases/download/Map_Download/recursos_hidricos.zip:notListing::maxZoom:7</Keyword>
+					<Keyword>group:shp::://github.com/inescaralinda/MapasWeb/releases/download/Map_Download/recursos_hidricos.zip:notListing::maxZoom:4</Keyword>
 				</KeywordList>
 				<SRS>EPSG:4326</SRS>
 				<LatLonBoundingBox minx="-16.679098627423173" miny="11.037329984758799" maxx="-13.658324624610032" maxy="12.612239986225632"></LatLonBoundingBox>
@@ -277,7 +282,7 @@
 				<Title>sectores</Title>
 				<Abstract>GH:sectores ABSTRACT</Abstract>
 				<KeywordList>
-					<Keyword>group:shp::://github.com/inescaralinda/MapasWeb/releases/download/Map_Download/sectores.zip:notListing::maxZoom:7</Keyword>
+					<Keyword>group:shp::://github.com/inescaralinda/MapasWeb/releases/download/Map_Download/sectores.zip:notListing::maxZoom:4</Keyword>
 				</KeywordList>
 				<SRS>EPSG:4326</SRS>
 				<LatLonBoundingBox minx="-16.70515899999998" miny="10.864305999999942" maxx="-13.636519999999905" maxy="12.680791000000113"></LatLonBoundingBox>
@@ -297,7 +302,7 @@
 				<Title>populacao_por_regiao</Title>
 				<Abstract>GH:populacao_por_regiao ABSTRACT</Abstract>
 				<KeywordList>
-					<Keyword>group:shp::://github.com/inescaralinda/MapasWeb/releases/download/Map_Download/populacao_por_regiao.zip:notListing::maxZoom:7</Keyword>
+					<Keyword>group:shp::://github.com/inescaralinda/MapasWeb/releases/download/Map_Download/populacao_por_regiao.zip:notListing::maxZoom:4</Keyword>
 				</KeywordList>
 				<SRS>EPSG:4326</SRS>
 				<LatLonBoundingBox minx="-16.70515899999999" miny="10.864305999999956" maxx="-13.63651999999994" maxy="12.680791000000113"></LatLonBoundingBox>
