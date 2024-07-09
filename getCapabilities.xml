@@ -216,7 +216,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:localizacoes_para_o_laboratorio</Layers>
+				<Layers>GH:distritos</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -226,7 +226,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:localizacoes_para_o_laboratorio</Layers>
+				<Layers>GH:distritos</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -236,7 +236,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:distritos</Layers>
+				<Layers>GH:localizacoes_para_o_laboratorio</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<TileSet>
@@ -246,7 +246,7 @@
 				<Width>256</Width>
 				<Height>256</Height>
 				<Format>image/png</Format>
-				<Layers>GH:distritos</Layers>
+				<Layers>GH:localizacoes_para_o_laboratorio</Layers>
 				<Styles></Styles>
 			</TileSet>
 			<CustomLayer>
@@ -358,26 +358,6 @@
 				</Style>
 			</Layer>
 			<Layer queryable="1" opaque="0">
-				<Name>GH:localizacoes_para_o_laboratorio</Name>
-				<Title>localizacoes_para_o_laboratorio</Title>
-				<Abstract>GH:localizacoes_para_o_laboratorio ABSTRACT</Abstract>
-				<KeywordList>
-					<Keyword>group:shp::://github.com/inescaralinda/MapasWeb/releases/download/Map_Download/localizacoes_para_o_laboratorio.zip:notListing::maxZoom:4</Keyword>
-				</KeywordList>
-				<SRS>EPSG:4326</SRS>
-				<LatLonBoundingBox minx="-9.470773326177845" miny="37.84610058855718" maxx="-8.35308515933409" maxy="38.96380343189716"></LatLonBoundingBox>
-				<BoundingBox SRS="EPSG:4326" minx="-115950.5013790685" miny="-201461.4018706383" maxx="-19359.55254553568" maxy="-78185.92494640437"></BoundingBox>
-				<Style>
-					<Name>1</Name>
-					<Title>1</Title>
-					<Abstract></Abstract>
-					<LegendURL width="20" height="20">
-						<Format>image/png</Format>
-						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=localizacoes_para_o_laboratorio"></OnlineResource>
-					</LegendURL>
-				</Style>
-			</Layer>
-			<Layer queryable="1" opaque="0">
 				<Name>GH:distritos</Name>
 				<Title>distritos</Title>
 				<Abstract>GH:distritos ABSTRACT</Abstract>
@@ -394,6 +374,26 @@
 					<LegendURL width="20" height="20">
 						<Format>image/png</Format>
 						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=distritos"></OnlineResource>
+					</LegendURL>
+				</Style>
+			</Layer>
+			<Layer queryable="1" opaque="0">
+				<Name>GH:localizacoes_para_o_laboratorio</Name>
+				<Title>localizacoes_para_o_laboratorio</Title>
+				<Abstract>GH:localizacoes_para_o_laboratorio ABSTRACT</Abstract>
+				<KeywordList>
+					<Keyword>group:shp::://github.com/inescaralinda/MapasWeb/releases/download/Map_Download/localizacoes_para_o_laboratorio.zip:notListing::maxZoom:4</Keyword>
+				</KeywordList>
+				<SRS>EPSG:4326</SRS>
+				<LatLonBoundingBox minx="-9.470773326177845" miny="37.84610058855718" maxx="-8.35308515933409" maxy="38.96380343189716"></LatLonBoundingBox>
+				<BoundingBox SRS="EPSG:4326" minx="-115950.5013790685" miny="-201461.4018706383" maxx="-19359.55254553568" maxy="-78185.92494640437"></BoundingBox>
+				<Style>
+					<Name>1</Name>
+					<Title>1</Title>
+					<Abstract></Abstract>
+					<LegendURL width="20" height="20">
+						<Format>image/png</Format>
+						<OnlineResource xmlns:xlink="http://www.w3.org/1999/xlink" xlink:type="simple" xlink:href="https://maps.csr.ufmg.br:443/geoserver/wms?request=GetLegendGraphic&amp;format=image%2Fpng&amp;width=20&amp;height=20&amp;layer=localizacoes_para_o_laboratorio"></OnlineResource>
 					</LegendURL>
 				</Style>
 			</Layer>
